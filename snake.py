@@ -144,7 +144,7 @@ def gameLoop():
             if x == snake_Head:
                 game_close = True
 
-          our_snake(snake_block, snake_List)
+        our_snake(snake_block, snake_List)
         Your_score(Length_of_snake - 1)
  
         pygame.display.update()
@@ -161,16 +161,3 @@ def gameLoop():
  
 game_intro()
 gameLoop()
-
- 
-
-        
- 
-       
-
-    
-
-
-    
-   
-     
