@@ -36,3 +36,10 @@ display_surface = pygame.display.set_mode((dis_width, dis_height))
 bg = pygame.image.load("sky.jpg")
 
 image = pygame.image.load('ship.jpg')
+
+def game_intro():
+     intro = True
+
+     
+     
+     
