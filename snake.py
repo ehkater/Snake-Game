@@ -45,6 +45,15 @@ def game_intro():
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_c:
                         gameLoop()
+        dis.fill(white)
+        message3(" Pixel Snake ", red)
+        display_surface.blit(image, (100, 100))
+        message2(" To Start press c ", red)
+
+        pygame.display.update()
+        clock.tick(15)
+
+    
 
      
      
