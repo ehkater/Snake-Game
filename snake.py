@@ -32,3 +32,7 @@ score_font = pygame.font.SysFont("comicsansms", 35)
 font_style2 = pygame.font.SysFont("bahnschrift", 55)
 white = (1, 37, 40)
 display_surface = pygame.display.set_mode((dis_width, dis_height))
+
+bg = pygame.image.load("sky.jpg")
+
+image = pygame.image.load('ship.jpg')
