@@ -53,6 +53,11 @@ def game_intro():
         pygame.display.update()
         clock.tick(15)
 
+
+def Your_score(score):
+    value = score_font.render("Your Score: " + str(score), True, yellow)
+    dis.blit(value, [0, 0])
+
     
 
      
