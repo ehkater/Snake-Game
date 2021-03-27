@@ -75,5 +75,13 @@ def message2(msg, color):
 def message3(msg, color):
     mesg = font_style2.render(msg, True, color)
     dis.blit(mesg, [dis_width / 5, dis_height / 9])
-     
+
+def gameLoop():
+    game_over = False
+    game_close = False
+    
+
+
+    
+   
      
