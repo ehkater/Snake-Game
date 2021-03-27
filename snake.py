@@ -63,6 +63,17 @@ def our_snake(snake_block, snake_list):
     for x in snake_list:
         pygame.draw.rect(dis, black, [x[0], x[1], snake_block, snake_block])
  
-     
+
+def message(msg, color):
+    mesg = font_style.render(msg, True, color)
+    dis.blit(mesg, [dis_width / 6, dis_height / 3])
+
+def message2(msg, color):
+    mesg = font_style.render(msg, True, color)
+    dis.blit(mesg, [dis_width / 3, dis_height / 1.2])
+
+def message3(msg, color):
+    mesg = font_style2.render(msg, True, color)
+    dis.blit(mesg, [dis_width / 5, dis_height / 9])
      
      
