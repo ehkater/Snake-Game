@@ -40,6 +40,12 @@ image = pygame.image.load('ship.jpg')
 def game_intro():
      intro = True
 
+     while intro == True:
+        for event in pygame.event.get():
+                if event.type == pygame.KEYDOWN:
+                    if event.key == pygame.K_c:
+                        gameLoop()
+
      
      
      
